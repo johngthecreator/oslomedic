@@ -6,7 +6,10 @@ import { useState } from 'react'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white">
-      <div className="">
+      <div>
+        <h1 className="text-4xl font-bold text-center">Find the medication alternative.</h1>
+        <h1 className="text-4xl font-bold text-center">that suits you the best.</h1>
+        <p>Oslo helps you find different alternatives to medication that you use on the daily.</p>
       </div>
     </main>
   )

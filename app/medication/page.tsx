@@ -65,7 +65,7 @@ export default function Medication(){
     
     return(
         <main className="p-4 bg-white">
-            <div className="flex min-h-screen flex-col md:flex-row gap-4 bg-white">
+            <div className="flex min-h-screen flex-col md:flex-row gap-4 bg-white items-center justify-center">
                 <div>
                     <h1 className="text-xl font-bold">Search For Medication</h1>
                     <div className="flex flex-row gap-2 max-w-1/4">
